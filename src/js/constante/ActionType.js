@@ -1,4 +1,0 @@
-export const GET_USERS='GET_USERS';
-export const GET_USERS_SUCCES='GET_USERS_SUCCES';
-export const GET_USERS_FAIL='GET_USERS_FAIL';
-export const GET_USERS_BY_ID='GET_USERS_BY_ID';

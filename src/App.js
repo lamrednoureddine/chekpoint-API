@@ -1,14 +1,14 @@
-import { Routes,Route } from "react-router-dom";
-import UsersList from "./Compoints/Users/UsersList";
-import Profils from "./Compoints/Profils/Profils";
+// App.js
+import React from 'react';
+import UserList from './UserList';
+import './App.css'; 
 
 function App() {
   return (
     <div className="App">
-    <Routes>
-<Route path='/' element={<UsersList/>}> </Route>
-<Route path='User/:id' element={Profils}> </Route>
-     </Routes>
+      
+        <UserList />
+      
     </div>
   );
 }
